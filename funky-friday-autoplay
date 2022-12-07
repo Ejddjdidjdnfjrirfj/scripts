@@ -41,7 +41,7 @@ end
 -- rewrote because old checks literally did not work
 if type(set_identity) ~= 'function' then return fail('Unsupported exploit (missing "set_thread_identity")') end
 if type(getconnections) ~= 'function' then return fail('Unsupported exploit (missing "getconnections")') end
-if type(getloadedmodules) ~= 'function' then return fail('Unsupported exploit (misssing "getloadedmodules")') end
+if type(getloadedmodules) ~= 'function' then return fail('You are running an outdated version of Fluxus Android. Uninstall Fluxus And Roblox and then please reinstall from www.fluxteam.net!') end
 if type(getgc) ~= 'function' then   return fail('Unsupported exploit (misssing "getgc")') end
 
 local getinfo = debug.getinfo or getinfo;
